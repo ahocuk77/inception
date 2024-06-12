@@ -6,14 +6,14 @@
 #    By: ahocuk <ahocuk@student.42heilbronn.de>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/02/27 18:08:46 by ahocuk            #+#    #+#              #
-#    Updated: 2024/05/20 00:07:34 by ahocuk           ###   ########.fr        #
+#    Updated: 2024/06/12 18:50:52 by ahocuk           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 .SILENT:
 
-NAME	=	convert
-SRC		=	main.cpp ScalarConverter.cpp
+NAME	=	inception
+SRC		=	main.cpp
 OBJ		=	$(SRC:.cpp=.o)
 CC		= 	c++
 RM		=   rm -f
